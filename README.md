@@ -22,7 +22,7 @@ Erst Problem und konkreten Fall klären. Regeln mit Beispielen, sichtbare Zustä
 | [Evaluation](docs/evaluation.md) | Baselines, Metriken, Release-Gates |
 | [Forschung](research/findings.md) | Studienergebnisse und Einschränkungen |
 | [Kritische Gegenprüfung](research/critical-review.md) | Korrekturen, Gegenbelege und bewusst verworfene Ergänzungen |
-| [Format-/Mockup-Evidenz](research/formats-evidence.md) | Verständnis, Fidelity, Studiengrenzen |
+| [Format-/Mockup-Evidenz](research/formats-evidence.md) | KI-native Studien 2025/2026, historische Grundlagen und Studiengrenzen |
 | [Quellen](research/sources.md) | Primärquellen und Evidenztypen |
 | [Entscheidungen](docs/decisions.md) | Begründungen und Alternativen |
 | [Pilot](docs/pilot.md) | Einstieg, Nicht-Ziele, offene Entscheidungen |

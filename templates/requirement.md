@@ -23,7 +23,9 @@ Die Tabelle kann Akzeptanzkriterien bilden. Nur ausgewählte stabile Fälle zus�
 - Relevante Rechte / Fehlerfälle / nichtfunktionale Anforderungen:
 - Abhängigkeiten / bestehende Tickets:
 - Ausdrückliche Annahmen:
-- Optional: Szenarioschritt → Screen-ID/Version → Vorher-/Nachher-Zustand → Regelreferenz:
+- Optional: Originalaussage → LLM-Reformulierung → neu ergänzte Annahmen → Stakeholderentscheidung:
+- Optional: Szenarioschritt ↔ Screen-/Komponenten-ID/Version ↔ Regel-ID/Version:
+- Bei GUI-Ableitung: Herkunft und Status getrennt (im Design vorhanden / fachlich bestätigt / Implementierung getestet):
 
 ## Für Übergabe und Nachverfolgung
 

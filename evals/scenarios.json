@@ -389,7 +389,7 @@
     "id": "E49",
     "requirement": "R05",
     "trigger": "Mockup zeigt zusätzliche unbelegte Datenfelder",
-    "expected_behavior": "Felder als Designannahmen markieren und fachlich prüfen",
+    "expected_behavior": "Felder als Designannahmen oder GUI-abgeleitete Story-Kandidaten markieren; Originalaussage erhalten; fachlich bestätigen oder verwerfen lassen",
     "acceptance": "Keine automatische Hochstufung zur bestätigten Anforderung",
     "status": "specified-not-executed"
   },
@@ -397,7 +397,7 @@
     "id": "E50",
     "requirement": "R05",
     "trigger": "Mockup und Regeltext zeigen unterschiedliche Freigabegrenzen",
-    "expected_behavior": "Versionen und führende Regel vergleichen; Konflikt klären",
+    "expected_behavior": "Requirement-/Komponentenversionen und Links prüfen; betroffene Zustände markieren; korrigierbaren Driftvorschlag statt blindem Round-Tripping erzeugen",
     "acceptance": "Keine definitive Übergabe aus widersprüchlichen Artefakten",
     "status": "specified-not-executed"
   },
@@ -420,9 +420,25 @@
   {
     "id": "E53",
     "requirement": "R12",
-    "trigger": "Teilnehmer scheitert an totem Prototyp-Link",
-    "expected_behavior": "Prototypfehler von Usability-Befund trennen",
+    "trigger": "Optisch korrekter KI-Prototyp implementiert relevanten Übergang falsch",
+    "expected_behavior": "Relevante Interaktion vor Nutzersession prüfen; Reparatur erfassen; Prototypfehler von fachlichem Feedback trennen",
     "acceptance": "Kein Nutzerfehler oder Produktmangel ohne Prüfung attribuiert",
+    "status": "specified-not-executed"
+  },
+  {
+    "id": "E54",
+    "requirement": "R05",
+    "trigger": "KI-generierter interaktiver Ausschnitt beantwortet die offene Frage; relevante Interaktionen geprüft",
+    "expected_behavior": "Entwurf als reguläres Klärungswerkzeug verwenden und Ergebnisse rückvalidieren",
+    "acceptance": "Keine erzwungene Rückkehr zu Skizzen allein wegen vermeintlich zu hoher Fidelity",
+    "status": "specified-not-executed"
+  },
+  {
+    "id": "E55",
+    "requirement": "R02",
+    "trigger": "LLM-Reformulierung macht Anforderung verständlicher, fügt aber eine neue fachliche Bedingung hinzu",
+    "expected_behavior": "Original und Zusatz unterscheiden; Stakeholder um gezielte Bestätigung bitten",
+    "acceptance": "Verbesserte Sprache nicht mit genehmigter neuer Regel gleichsetzen",
     "status": "specified-not-executed"
   }
 ]

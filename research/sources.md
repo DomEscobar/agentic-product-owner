@@ -166,3 +166,33 @@ Abruf: 2026-11-03. Quellen gelesen; keine vollständige Markt- oder Literaturabd
 
 - Typ: Jeff Patton; Primärquelle der Methode, keine kausale Vergleichsstudie
 - URL: https://jpattonassociates.com/wp-content/uploads/2015/03/story_mapping.pdf
+
+## S34: Closing the Loop between User Stories and GUI Prototypes
+
+- Typ: CHI 2025, DOI 10.1145/3706598.3713932; vollständiges Verlags-PDF aus KITopen; kontrollierte Herstellung und getrennte Artefaktbewertungen
+- URL: https://publikationen.bibliothek.kit.edu/1000181332/159479829
+
+## S35: User-Centered Design with AI in the Loop
+
+- Typ: ACM Collective Intelligence 2025; vollständige arXiv-v1 vom 28.07.2025; qualitative Fallstudie, keine gemessene Zeiteinsparung
+- URL: https://arxiv.org/html/2507.21012v1
+
+## S36: Usable but Conventional
+
+- Typ: Volltext arXiv-v1 vom 14.05.2026; auch SEMISH veröffentlicht, DOI 10.5753/semish.2026.21904; Ratings statischer Screens
+- URL: https://arxiv.org/html/2605.15124v1
+
+## S37: Supporting Stakeholder Requirements Expression with LLM Revisions
+
+- Typ: Volltext arXiv-v1 vom 23.01.2026; REFSQ 2026 veröffentlicht; Zahlen hier aus arXiv, Finalfassung nicht vollständig abgeglichen
+- URL: https://arxiv.org/html/2601.16699v1
+
+## S38: LLM-Assisted Sketch-Based Requirements Elicitation and Prototyping
+
+- Typ: Research Square v1 vom 30.01.2026; vollständiges PDF geprüft; Ein-Szenario-Pilot mit internen Zahlenwidersprüchen
+- URL: https://doi.org/10.21203/rs.3.rs-8475358/v1
+
+## S39: From Prompts to High-Fidelity Prototypes
+
+- Typ: MDPI 17.04.2026, DOI 10.3390/mti10040042; vollständiges PDF; kleine Toolusability-Studie, feste Reihenfolge
+- URL: https://www.mdpi.com/2414-4088/10/4/42

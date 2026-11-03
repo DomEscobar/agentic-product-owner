@@ -48,6 +48,9 @@ Gleicher Informationszugang; explizite Zeit-/Kostenbudgets; mehrere Läufe; getr
 - [Formatvergleich](formats.md): gemeinsame Fallinterpretation statt bloßes „verstanden“.
 - [Mockupvergleich](mockups.md): gleiche fachliche Information; Text / Text plus Screens / interaktiver Ablauf. Visuelle Fidelity getrennt variieren.
 - Aufgabenerfolg, Regelverständnis, Zufriedenheit und irrtümlich zugeschriebene Agentenfähigkeiten separat messen.
+- Herstellungsworkflow und Darstellungswirkung getrennt vergleichen: aktuelle Studien verändern auch Erstellung, Inhalte und Rückfragen, nicht nur Darstellung [S34][S37].
+- Gleicher Ausgabeumfang, Rückfragezugang und Qualitätsauftrag; Reparatur bis zu gemeinsamem Qualitätsziel messen. Nicht bearbeitete Aufgaben nicht aus dem Nenner entfernen.
+- Gemeinsames Lernen: neue bestätigte Anforderungen und korrigierte Annahmen; Synchronisation: richtige Links und erkannte Drift statt selbstbehaupteter Abdeckung.
 - Erstellung/Pflege und Versionskonflikte einbeziehen. Keine Produktivitätszahl aus reiner Verständnisstudie ableiten [S25].
 
 ## Produktwirkung auswerten

@@ -1,6 +1,6 @@
 # Verständliche Formate
 
-**Auswahlregel:** Welche Frage ist offen? Nur das kleinste Format verwenden, das unterschiedliche Antworten sichtbar macht. Kein Pflichtpaket aus Brief, Story Map, Mockup und Gherkin.
+**Auswahlregel:** Welche Frage ist offen? Den geringsten Gesamtaufwand bis zu einer belastbaren Antwort wählen — nicht automatisch das visuell einfachste Format. Ein direkt generierter interaktiver Ausschnitt kann der kürzeste Weg sein [S34][S35]. Kein Pflichtpaket aus Brief, Story Map, Mockup und Gherkin.
 
 Designempfehlung aus [S25–S33](../research/sources.md); [Evidenz und Grenzen](../research/formats-evidence.md).
 
@@ -25,7 +25,8 @@ Keine verpflichtende Feldzahl: bereits bekannter Kontext wird verlinkt, nicht er
 | Was geschieht bei einem Ereignis? | Given–When–Then für ausgewählte stabile Fälle [S29] | Ausführbarer Test ohne Step Definitions |
 | Wo verzweigt oder übergibt der Ablauf? | Kleiner Flow mit Rollen, Start/Ende und relevantem Fehlerpfad | Verständlichkeit allein durch grafische Notation |
 | Was sieht die Person hier? | Statischer Screen plus Regelreferenz | Navigations- oder Fehlerbehandlungsqualität |
-| Kann sie die Aufgabe bedienen? | Klickbarer relevanter Ablauf | Backend-Funktion, Sicherheit oder Produktnutzen |
+| Kann sie die Aufgabe bedienen? | Klickbarer relevanter Ablauf, bei Bedarf direkt KI-generiert | Backend-Funktion, Sicherheit oder Produktnutzen |
+| Können wir Absicht und fehlende Details besser ausdrücken? | Originalaussage plus LLM-Reformulierung; Ergänzungen markieren und rückvalidieren [S37] | Technische Richtigkeit allein durch Zustimmung |
 | Welche Option wählen wir und warum? | Vorhandene Entscheidungsnotiz: Wahl, Grund, akzeptierter Nachteil | Konsens allein durch Dokumentation |
 
 ## Beispiele statt abstrakter Qualitätswörter

@@ -7,6 +7,8 @@
 - Methode:
 - Falls Prototyp: Testfrage / konkrete Aufgabe / dargestellte Zustände:
 - Falls Prototyp: Version und Regelreferenzen / simulierte Eigenschaften / unzulässige Schlussfolgerungen:
+- Falls KI-Generierung: Tool-/Modell-/Promptstand, Varianten, relevante geprüfte Interaktionen:
+- Herstellungs-/Reparatur-/Review-/Synchronisationsaufwand; neu erkannte und bestätigte fachliche Fragen:
 - Metrik mit Definition und Baseline:
 - Messfenster:
 - Erfolgskriterium:

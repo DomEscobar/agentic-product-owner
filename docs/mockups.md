@@ -14,7 +14,7 @@
 | Funktioniert der Produktansatz? | Gezielte Annahme im Nutzungskontext untersuchen | Gefallen oder Bedienbarkeit beweist keine Nachfrage |
 | Funktioniert der Agent? | Oberfläche von Auftrag, Vorschlag, Freigabe und Ergebnis zeigen | Simulierte Antworten beweisen keine Agentenfähigkeit |
 
-Kein belastbarer allgemeiner Prozentanteil von Mockups am Produkterfolg. Direkte RE-Evidenz berichtet besseres Verständnis durch ergänzende Screens, nicht nachgewiesene Zeitersparnis [S25].
+Kein belastbarer allgemeiner Prozentanteil von Mockups am Produkterfolg. S25 untersucht historisch Verständnis vorhandener Dokumente, nicht heutige Herstellungskosten. Aktuelle KI-Prototyping-Evidenz zeigt zusätzlich mehr Prototypfortschritt und bessere bewertete Storykonsistenz im Labor [S34] sowie qualitative Vorteile interaktiver Entwürfe für Domänenfeedback [S35].
 
 ## Detailgrad getrennt wählen
 
@@ -27,6 +27,27 @@ Kein belastbarer allgemeiner Prozentanteil von Mockups am Produkterfolg. Direkte
 | Abdeckung | Welche Rollen, Zustände und Fehlerpfade sind für die Frage nötig? |
 
 Eine ansprechende Oberfläche darf früh entstehen, wenn sie günstig und für die Frage hilfreich ist. Kein künstlicher Zwang zu hässlichen Wireframes. Aber: visuell fertig ≠ vollständig, realistisch bedienbar ≠ produktionsreif. Höhere Fidelity ist nicht pauschal besser [S26][S27].
+
+## KI-native Herstellung und gemeinsames Lernen
+
+Reguläre Option, kein Pflichtschritt für jedes Ticket:
+
+1. Belegtes Ziel, Domänenbegriffe und konkrete synthetische Fälle bereitstellen. Optional mit Skizze oder bestehendem Screen starten.
+2. Editierbaren Screen oder unmittelbar interaktiven Ausschnitt erzeugen; fachlich unterschiedliche Alternativen zulassen.
+3. Relevante Zustände und Interaktionen kurz testen, bevor Fachpersonen damit arbeiten.
+4. Gemeinsam ausprobieren und bei Bedarf direkt verändern; beobachtetes Problem von Prototypdefekt trennen.
+5. Neue fachliche Erkenntnisse als Story-Kandidaten mit Herkunft zurückführen; vom Stakeholder bestätigen oder verwerfen lassen.
+6. Anforderungen und Design gezielt abgleichen; Entscheidung und Teststand speichern.
+
+Das Design dieses Ablaufs ist unsere Ableitung aus S34/S35, nicht als Gesamtablauf validiert. Direkter interaktiver Einstieg darf günstiger sein als mehrere Vorstufen. „Klein“ bedeutet geringster Gesamtaufwand bis zur belastbaren Antwort, nicht automatisch wenige Pixel.
+
+### Story–GUI-Verknüpfung
+
+- Requirement-ID/Version ↔ Screen-/Komponenten-ID/Version.
+- Herkunft: Nutzerbeobachtung / ursprüngliche Aussage / aus Design abgeleitet / Modellvorschlag.
+- Automatisch erkannte sichtbare Abdeckung, fachliche Bestätigung und getestete Implementierung getrennt halten.
+- Storyänderung markiert betroffene Screens; Designänderung erzeugt prüfbaren Änderungs-/Story-Vorschlag.
+- Links und Statusvorschläge sind korrigierbar; kein blindes Überschreiben. Vollständige automatische Synchronisation ist nicht durch S34 belegt.
 
 ## Minimaler Prototyp-Vertrag
 
@@ -68,6 +89,14 @@ Für die Frage „Versteht der Reviewer die Freigabe?“ genügt eventuell ein s
 - Beobachtungen und Entscheidungen samt Prototypversion im Wiki speichern; nicht nur Screenshots sammeln.
 
 ## Beitrag lokal messen
+
+Drei getrennte Fragen:
+
+- **Herstellung:** manuell / KI-Erstfassung / KI plus Story–GUI-Abgleich. Gleiche Ausgangsinformation, gleicher Ausgabeauftrag und Rückfragezugang; Generierung, Reparatur, Review und Synchronisation bis zum gleichen Qualitätsziel messen. Nicht begonnene Aufgaben im Nenner behalten.
+- **Darstellung:** gleicher fachlicher Inhalt als Text, Screens oder Interaktion.
+- **Gemeinsames Lernen:** neue anschließend bestätigte Anforderungen, korrigierte Fehlannahmen und Zeit zur Entscheidung; repräsentative Fachpersonen und Vorwissensunterschiede berücksichtigen.
+
+Produktwirkung bleibt eine separate spätere Messung.
 
 - Gleiche fachliche Information: Text allein / Text plus Screens / Text plus interaktiver Ablauf.
 - Interaktivität und visuelle Ausarbeitung nicht gleichzeitig ändern und alles „Mockup-Effekt“ nennen.
