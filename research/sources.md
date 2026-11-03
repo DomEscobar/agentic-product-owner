@@ -1,6 +1,6 @@
 # Quellen
 
-Abruf: 2026-11-03. Quellen gelesen; keine vollständige Markt- oder Literaturabdeckung. Herstellerfunktionen nicht live getestet. Keine Artikelvolltexte gespiegelt.
+Abruf: 2026-11-03. Quellen gelesen; keine vollständige Markt- oder Literaturabdeckung. Herstellerfunktionen nicht live getestet. Keine Artikelvolltexte gespiegelt. Runde 2 ergänzt nur Quellen mit konkreter Auswirkung auf das Design; Auswahlentscheidungen siehe [kritische Prüfung](critical-review.md).
 
 ## S01: Scrum Guide 2020
 
@@ -81,3 +81,43 @@ Abruf: 2026-11-03. Quellen gelesen; keine vollständige Markt- oder Literaturabd
 
 - Typ: Methodische Position
 - URL: https://producttalk.org/customer-interview-analysis-ai
+
+## S17: Evaluating AGENTS.md
+
+- Typ: Empirisch; Coding-Agenten, v3 vom 29.09.2026; kein PO-Nachweis
+- URL: https://arxiv.org/html/2602.11988v3
+
+## S18: LongMemEval
+
+- Typ: Gesprächs-Memory-Benchmark; v2 vom 04.03.2025; kein PO-Nachweis
+- URL: https://arxiv.org/html/2410.10813v2
+
+## S19: Comparing Human Oversight Strategies for Computer-Use Agents
+
+- Typ: Kontrollierte Nutzerstudie; v2 vom 12.09.2026; keine autonome Kontrollgruppe
+- URL: https://arxiv.org/html/2604.04918v2
+
+## S20: Beyond I Don’t Know / UA-Bench
+
+- Typ: ACL 2026; toolfreie QA und Mathematik, keine PO-Feldstudie
+- URL: https://aclanthology.org/2026.acl-long.547.pdf
+
+## S21: From Chat to Interview / OntoAgent
+
+- Typ: Preprint v1 Mai 2026; simulierte Interviews, kleine menschliche Ergänzung
+- URL: https://arxiv.org/html/2605.05828v1
+
+## S22: Bridging Humans and LLMs
+
+- Typ: Industrielle Fallstudie; DOI 10.37190/e-Inf260103, online 07.01.2026; subjektive Evaluation
+- URL: https://trepo.tuni.fi/bitstream/handle/10024/235571/Bridging_Humans_and_LLMs_Investigating_Human-AI_Collaboration_in_Multi-agent_Requirements_Analysis_for_Organizational_AI_Adoption.pdf?isAllowed=y&sequence=1
+
+## S23: Removing sensitive data from a repository
+
+- Typ: GitHub-Dokumentation; Grenzen von Historienbereinigung und fremden Clones
+- URL: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+
+## S24: Patterns of Trustworthy Experimentation: During-Experiment Stage
+
+- Typ: Industrielle Methodenpraxis; kein PO-Agentenvergleich
+- URL: https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-during-experiment-stage

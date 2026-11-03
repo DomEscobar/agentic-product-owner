@@ -9,6 +9,10 @@ Recherche: 2026-11-03. Gezielte Recherche, kein systematisches Review mit Vollst
 | S06: Paiva et al., 2026 | 150 OSS-Feature-Titel; zwei Modelle; drei Prompts; 900 Anforderungen; menschliche Teilbewertung | Exakte Mensch–Judge-Übereinstimmung 34–42 %; Expertenpersona verschlechtert teils Singularität | Intrinsische Textqualität, nicht fachliche Richtigkeit oder Nutzen; auch menschliche Einigkeit begrenzt | Rubriken kalibrieren; Persona kein Qualitätsnachweis |
 | S15: Prioritizing Software Requirements, arXiv v1 2024 | GPT-3.5-Demonstrator für Stories und Priorisierung | Ranking-Erzeugung demonstriert | Keine belastbare Ranking-Validierung oder kontrollierter menschlicher Vergleich im gelesenen Evaluationsabschnitt | Ranking ≠ richtige Produktentscheidung |
 
+## Aktualisierung durch Gegenprüfung
+
+[Zweite Runde](critical-review.md): Agentische Steuerung bleibt eine zu testende Architekturhypothese. S21 liefert positive Evidenz für strukturierte Elicitation, isoliert aber keinen Agentikvorteil gegenüber einem gleichwertigen festen Workflow. S22 ergänzt reale industrielle Priorisierungsbewertung, überwiegend subjektiv und ohne kausalen Nutzenvergleich. Die folgenden Aussagen über die vier Erststudien bleiben auf diese vier begrenzt.
+
 ## Belastbare Schlussfolgerungen
 
 - Aufgabenbezogene Assistenz ist plausibel und teilweise empirisch untersucht.

@@ -2,6 +2,8 @@
 
 Designempfehlung. Wiki = Produktgedächtnis; Harness = Regeln, Tools, Laufsteuerung und Evaluation.
 
+**Kein belegter Leistungsgewinn für PO-Arbeit.** Zuerst direkte Quellensuche gegen kleine kuratierte Karten und agentengepflegte Karten testen. Generierte Kontextdateien verbessern Coding-Aufgaben nicht generell [S17]; Verdichtung kann relevante Details verlieren [S18]. Das widerlegt weder notwendige Policies noch gezielten Wissenszugriff. Vollständige Wiki-Automatisierung ist kein Startziel.
+
 ## Zielstruktur im späteren Produkt-Repository
 
 ```text
@@ -27,7 +29,11 @@ agent/
 | Feld | Zweck |
 |---|---|
 | id / type | Stabile Referenz; Beobachtung, Hypothese, Regel, Entscheidung |
-| status | draft, confirmed, contested, superseded, rejected |
+| epistemic_status | observed / inferred / disputed; keine Freigabe durch richtige Formulierung |
+| editorial_status | draft / reviewed |
+| decision_status | proposed / approved / rejected / revoked; nur mit echter Autorisierungsreferenz |
+| temporal_status | current / stale / superseded; Geltungszeit getrennt von Importzeit |
+| access_state | available / unavailable / revoked / quarantined; nicht gleich wahr/falsch |
 | scope | Produkt, Segment, Zeitraum, Version |
 | sources | Originalquelle und konkrete Fundstelle |
 | owner / approved_by | Zuständigkeit; keine selbst erfundene Freigabe |
@@ -39,10 +45,10 @@ agent/
 
 ## Lesezyklus
 
-1. Mandat und geschützte Regeln laden.
-2. Index und gültige Ziele lesen.
-3. Nur relevante Wissensseiten abrufen.
-4. Status, Scope, Quellenstand und Zugriff prüfen.
+1. Identität und Mandat serverseitig prüfen; Zugriff auf Regeln, Index und Ziele autorisieren.
+2. Nur erlaubte Regeln, Indexteile und gültige Ziele laden.
+3. Kandidaten einschließlich Titel/Snippets VOR Retrieval/Modellkontakt autorisieren.
+4. Nur relevante erlaubte Seiten abrufen; Status, Scope, Geltungszeit und Quellenstand prüfen. Vor späterer Nutzung Rechte erneut prüfen.
 5. Für folgenreiche Entscheidungen die Originale nachprüfen.
 
 ## Schreibzyklus
@@ -71,9 +77,13 @@ agent/
 ## Wartung
 
 - Broken Links, fehlende Quellen und unaufgelöste Konflikte prüfen.
-- Veraltete Entscheidungen markieren; nicht aus der Historie entfernen.
-- Ableitungen bei Quellenänderung invalidieren oder zur Prüfung stellen.
-- Duplikate zusammenführen, große Seiten thematisch teilen.
+- Fachlich überholte nicht-sensitive Entscheidungen historisieren. Datenschutz-/Sicherheitsvorfälle folgen separaten Lösch- und Retentionregeln; keine absolute Aufbewahrungspflicht [S23].
+- Bei fachlicher Quellenänderung betroffene Ableitungen zur erneuten Prüfung markieren. Bei Rechteentzug oder Manipulationsverdacht aktive Nutzung blockieren und Entzug auf Ableitungen, Index und Cache anwenden.
+- Quellausfall bedeutet nicht Widerlegung; veralteter Inhalt bedeutet nicht automatisch unzulässige Nutzung. Zustände getrennt behandeln.
+- Entscheidungserhebliche Änderung nach Freigabe invalidiert die Ausführungsgrundlage auch bei unverändertem Ziel-Ticket.
+- Konsolidierung versionieren; Originalfundstellen, Gegenbelege, Segmente, Nenner und Ausnahmen erhalten [S18]. Unterschiedliche Scopes nicht als Duplikate verschmelzen.
+- Einmal ingestierte Fremdinstruktionen können später wieder erscheinen: Wissenspflege darf keine Autorisierungsdaten erzeugen; vorgeschlagene Regeln bleiben isolierte Daten bis zur zuständigen Prüfung.
+- Duplikate zusammenführen, große Seiten thematisch teilen; neue Inhalte, Referenzen und Index konsistent veröffentlichen.
 - Überholtes archivieren; gezieltes Retrieval statt vollständigem Wiki im Kontext.
 - Relevanz und Abrufqualität evaluieren, nicht nur Anzahl gespeicherter Seiten.
 

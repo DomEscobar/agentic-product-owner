@@ -9,7 +9,7 @@ Auftrag
   → Evidenz und Konflikte erfassen
   → Analyse / Rückfrage / Entwurf
   → Schema + Fachprüfung + Policy
-  → konkreten Diff freigeben
+  → Einzel-Diff-Freigabe ODER bestehendes Aktionsklassenmandat validieren
   → Zielversion und Rechte erneut prüfen
   → Aktion ausführen
   → Zielsystem zurücklesen
@@ -30,12 +30,17 @@ Auftrag
 
 ## Zustände
 
-`received → researching → needs_clarification | drafted → awaiting_approval → approved → executing → verified | needs_reconciliation | failed`
+`received → researching → needs_clarification | drafted → authorization_check → awaiting_approval | authorized → executing → verified | needs_reconciliation | failed`
 
-- `approved` ist an Diff und Zielversion gebunden.
+`authorized` entsteht durch gültige Einzel-Freigabe oder passende vorautorisierte Aktionsklasse, niemals durch Selbstauskunft des Modells.
+
+- Einzel-Freigabe bindet Diff, Zielversion, Evidenzmanifest und Policy-Version. Aktionsklassenmandat bindet erlaubte Felder, Vorbedingungen, Nebenwirkungen, Budget und Ablauf/Widerruf; jeder konkrete Write wird dagegen geprüft.
+- Vor Ausführung zusätzlich Nutzungsrechte und entscheidungsrelevante Quelländerungen prüfen. Unverändertes Zielobjekt heilt widerrufene Entscheidungsgrundlage nicht.
+- Server authentifiziert Identität/Mandat; das Modell darf keinen frei gewählten Principal an Tools übergeben.
 - Timeout nach Write → `needs_reconciliation`, nicht blind erneut ausführen.
 - Checkpoint-Replay garantiert kein Exactly-once im Zielsystem [S10].
-- Abbruch: Budget, Zeit, Iterationslimit, fehlendes Mandat, nicht auflösbarer Konflikt.
+- Abbruch: Budget, Zeit, Iterationslimit oder fehlendes Mandat. Tatsachenunsicherheit → Recherche/Test; legitimer Zielkonflikt → zuständige Entscheidung; kein pauschaler Abbruch bei jeder offenen Frage.
+- Fehlende Befugnis ist nicht durch kleine Experimente oder Zeitdruck überbrückbar.
 - Parallelität: pro Zielobjekt Konfliktkontrolle; keine gegenseitigen unbemerkten Überschreibungen.
 
 ## Führende Systeme
@@ -53,7 +58,7 @@ Auftrag
 - `find_related_items(problem, project)`
 - `propose_change(target, expected_version, patch, evidence_ids)`
 - `request_approval(proposal_id)`
-- `execute_approved_change(approval_id, operation_id)`
+- `execute_authorized_change(authorization_ref, operation_id, expected_version)`
 - `verify_target(operation_id)`
 
 Namen sind Schnittstellenvorschläge, keine vorhandene API.

@@ -12,5 +12,8 @@
 - Nachweis der Freigabe:
 - Betroffene Artefakte:
 - Reversibilität:
+- Entscheidungsfrist / Kosten des Wartens:
+- Welche zusätzliche Information könnte die Entscheidung ändern?
+- Nächster verantworteter Schritt: entscheiden / klein testen / klären / eskalieren
 - Bedingungen für Neubewertung:
 - Ersetzt / ersetzt durch:

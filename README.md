@@ -15,6 +15,7 @@ Recherchebasierte Anforderungen und Referenzdesign für einen agentischen PO.
 | [Autonomie und Sicherheit](docs/security.md) | Rechte, Freigaben, Bedrohungen |
 | [Evaluation](docs/evaluation.md) | Baselines, Metriken, Release-Gates |
 | [Forschung](research/findings.md) | Studienergebnisse und Einschränkungen |
+| [Kritische Gegenprüfung](research/critical-review.md) | Korrekturen, Gegenbelege und bewusst verworfene Ergänzungen |
 | [Quellen](research/sources.md) | Primärquellen und Evidenztypen |
 | [Entscheidungen](docs/decisions.md) | Begründungen und Alternativen |
 | [Pilot](docs/pilot.md) | Einstieg, Nicht-Ziele, offene Entscheidungen |
@@ -27,6 +28,8 @@ Recherchebasierte Anforderungen und Referenzdesign für einen agentischen PO.
 - Keine erfundenen Kundenbedürfnisse, Schätzungen, Freigaben oder Zitate.
 - Produktnutzen statt Ticketmenge optimieren.
 - Vorschläge und freigegebene Entscheidungen getrennt halten.
+- Agentik und Wiki gegen einfachere Alternativen testen; kein automatischer Nutzen.
+- Sichere Untätigkeit ist kein Erfolg: erlaubte Aktionen und unnötige Rückfragen mitprüfen.
 - Policies außerhalb des Modells durchsetzen.
 - Externe Änderungen zurücklesen; Timeout ist kein Beleg für Fehlschlag.
 - Wiki ist Produktgedächtnis, nicht Autorisierungsinstanz oder Workflow-Datenbank.

@@ -2,7 +2,11 @@
 
 - ID:
 - Typ: observation / interpretation / hypothesis
-- Status: draft / confirmed / contested / superseded
+- Epistemisch: observed / inferred / disputed
+- Redaktionell: draft / reviewed
+- Zeitlich: current / stale / superseded
+- Zugriff: available / unavailable / revoked / quarantined
+- Geltungszeit getrennt von Importzeit:
 - Aussage:
 - Originalquelle und Fundstelle:
 - Quellenversion / Erhebungszeit:

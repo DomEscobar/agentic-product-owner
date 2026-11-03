@@ -2,7 +2,9 @@
 
 ## Erster Use Case
 
-Reales Feedback → belegte Problemzusammenfassung → vorhandene Tickets prüfen → Fragen → Anforderungsentwurf → Freigabe → verifizierter Write.
+Reales Feedback → belegtes Problem → bestehende Lösung prüfen → kritische Annahme und Alternativen → entscheiden / recherchieren / fragen / klein testen → gegebenenfalls Anforderungsentwurf → Autorisierung → verifizierter Write.
+
+Kundenwunsch ist ein Signal, kein fertiger Lösungsauftrag. Nutzenmessplan und Architekturvergleich vor produktivem Pilot festlegen.
 
 ## Einführung
 
@@ -10,6 +12,10 @@ Reales Feedback → belegte Problemzusammenfassung → vorhandene Tickets prüfe
 2. Shadow Mode neben menschlichem PO; keine produktiven Änderungen.
 3. Freigegebene Writes in begrenztem Projekt.
 4. Begrenzte Routineautonomie nach Qualitäts-/Risikomessung.
+
+## Lebenszyklus statt nur neue Features
+
+Bei fehlender Wirkung auch Stoppen oder geordnete Stilllegung prüfen: reale Nutzung, Kundenabhängigkeiten, Zusagen, Migration, Support- und Betriebskosten. Produktbeschluss, technische Abschaltung und Datenlöschung getrennt autorisieren. Geringe Nutzung allein rechtfertigt keine Löschung [S01][S02].
 
 ## Nicht-Ziele
 
