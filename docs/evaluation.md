@@ -43,6 +43,13 @@ Gleicher Informationszugang; explizite Zeit-/Kostenbudgets; mehrere Läufe; getr
 - Zeitersparnis nur inklusive Review und Nacharbeit berichten.
 - Autonomie nur erhöhen, wenn Nutzen und Risiko gegenüber der vorherigen Stufe gemessen wurden.
 
+## Verständlichkeit und Mockups
+
+- [Formatvergleich](formats.md): gemeinsame Fallinterpretation statt bloßes „verstanden“.
+- [Mockupvergleich](mockups.md): gleiche fachliche Information; Text / Text plus Screens / interaktiver Ablauf. Visuelle Fidelity getrennt variieren.
+- Aufgabenerfolg, Regelverständnis, Zufriedenheit und irrtümlich zugeschriebene Agentenfähigkeiten separat messen.
+- Erstellung/Pflege und Versionskonflikte einbeziehen. Keine Produktivitätszahl aus reiner Verständnisstudie ableiten [S25].
+
 ## Produktwirkung auswerten
 
 - Ergebnisstatus: positiv / negativ / unentschieden / nicht auswertbar.

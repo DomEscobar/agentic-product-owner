@@ -12,7 +12,7 @@ Vor Umsetzungsempfehlungen: Problem, beobachtetes Verhalten, Alternativen (einsc
 | R02 | P0 | Beobachtung, Interpretation, Hypothese und Entscheidung trennen | Verhindert erfundene Gewissheit | Jeder tragende Claim hat Typ, Quelle/Begründung, Status |
 | R03 | P0 | Quellen mit Fundstelle, Version und Zugriff prüfen | Prüfbarkeit und Datenschutz | Keine unberechtigten Quellen; Zitate am Original überprüfbar |
 | R04 | P0 | Unsicherheitsursache und passende Folgeaktion bestimmen | Fehlentscheidungen und unnötige Rückfragen reduzieren | Fehlender Nutzerkontext → Frage; zugänglicher Fakt → Suche; Rechnung → Tool; Zielkonflikt → Entscheider; Kompetenzgrenze → begrenzen/eskalieren [S20] |
-| R05 | P0 | Scope, Nicht-Ziele und prüfbare Kriterien formulieren | Umsetzbare Anforderungen | Kriterien beschreiben beobachtbares Verhalten und Fehlerfälle |
+| R05 | P0 | Scope, Beispiele und prüfbare Kriterien verständlich machen | Umsetzbare Anforderungen | Konkreter Fall und Ausnahme; Beteiligte sagen erwartetes Verhalten voraus; Screens optional bei UI-Frage; keine Satzschablonenpflicht |
 | R06 | P0 | Bestehendes Backlog und Abhängigkeiten prüfen | Weniger Duplikate und Konflikte | Vor Neuanlage vorhandene Kandidaten prüfen |
 | R07 | P0 | Entscheidungsrechte und Vertretung festlegen | Keine unautorisierten Zusagen | PO: Backlog-Ordnung; Developers: Schätzung/Umsetzungsplan und Sprintauswahl im Austausch; Sprintziel gemeinsam; Sprint-Abbruch beim PO; Releasepolitik separat [S01] |
 | R08 | P0 | Konkrete Autorisierung nach einem von zwei Wegen | Keine Ausweitung von Freigabe oder Mandat | Einzel-Diff-Freigabe ODER vorab autorisierte Aktionsklasse; beide an Scope, Version, Evidenzbasis, Policy und Gültigkeit prüfen |

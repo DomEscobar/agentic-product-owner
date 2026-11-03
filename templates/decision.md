@@ -8,6 +8,7 @@
 - Evidenz und Gegenbelege:
 - Constraints / Abhängigkeiten:
 - Entscheidung und Begründung:
+- Bewusst akzeptierter Nachteil / wichtigstes Gegenargument:
 - Entscheidungsbefugter:
 - Nachweis der Freigabe:
 - Betroffene Artefakte:

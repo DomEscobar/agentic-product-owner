@@ -4,6 +4,12 @@ Recherchebasierte Anforderungen und Referenzdesign für einen agentischen PO.
 
 **Status:** Wissensbasis / Spezifikation. Kein implementierter PO-Agent. Keine nachgewiesenen Produktivitätsgewinne. Stand: 2026-11-03.
 
+## Schnellstart
+
+**[Welches Format klärt meine Frage?](docs/formats.md)** · **[Wann helfen Mockups?](docs/mockups.md)**
+
+Erst Problem und konkreten Fall klären. Regeln mit Beispielen, sichtbare Zustände mit Screens, Bedienung mit einem Ablauf. Nicht jedes Format für jede Aufgabe.
+
 ## Einstieg
 
 | Datei | Inhalt |
@@ -16,6 +22,7 @@ Recherchebasierte Anforderungen und Referenzdesign für einen agentischen PO.
 | [Evaluation](docs/evaluation.md) | Baselines, Metriken, Release-Gates |
 | [Forschung](research/findings.md) | Studienergebnisse und Einschränkungen |
 | [Kritische Gegenprüfung](research/critical-review.md) | Korrekturen, Gegenbelege und bewusst verworfene Ergänzungen |
+| [Format-/Mockup-Evidenz](research/formats-evidence.md) | Verständnis, Fidelity, Studiengrenzen |
 | [Quellen](research/sources.md) | Primärquellen und Evidenztypen |
 | [Entscheidungen](docs/decisions.md) | Begründungen und Alternativen |
 | [Pilot](docs/pilot.md) | Einstieg, Nicht-Ziele, offene Entscheidungen |

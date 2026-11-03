@@ -121,3 +121,48 @@ Abruf: 2026-11-03. Quellen gelesen; keine vollständige Markt- oder Literaturabd
 
 - Typ: Industrielle Methodenpraxis; kein PO-Agentenvergleich
 - URL: https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-during-experiment-stage
+
+## S25: Screen Mockups and Functional Requirements Comprehension
+
+- Typ: Ricca et al., TOSEM 2014, DOI 10.1145/2629457; Methoden im Autorentext, Ergebnisrichtung im Verlagsabstract geprüft; Ergebnistabellen nicht vollständig zugänglich
+- URL: https://dl.acm.org/doi/10.1145/2629457
+
+## S26: High-Fidelity or Low-Fidelity, Paper or Computer?
+
+- Typ: Walker et al., HFES 2002; kleiner kontrollierter Usability-Versuch, Volltext geprüft
+- URL: https://leilatakayama.org/downloads/Takayama.Prototypes_HFES2002_prepress.pdf
+
+## S27: The influence of prototype fidelity and aesthetics of design in usability tests
+
+- Typ: Sauer/Sonderegger 2009; kontrollierter Versuch mit älteren Handys, Volltext geprüft
+- URL: https://folia.unifr.ch/documents/302252/files/SauerSonderegger2009.pdf
+
+## S28: Example Mapping: longitudinale Fallstudien
+
+- Typ: Berends/Dalpiaz 2021; zwei Fallstudien, Wahrnehmung/Beobachtung, Volltext geprüft
+- URL: https://webspace.science.uu.nl/~dalpi001/papers/bere-dalp-2021-re.pdf
+
+## S29: Gherkin Reference
+
+- Typ: Offizielle Methodendokumentation; keine Wirksamkeitsstudie
+- URL: https://cucumber.io/docs/gherkin/reference
+
+## S30: Principles of prototyping
+
+- Typ: GOV.UK 29.09.2026; gemeinsam entwickelte Praxisprinzipien, kein kontrollierter Versuch
+- URL: https://designnotes.blog.gov.uk/2026/09/29/what-are-the-principles-of-prototyping/
+
+## S31: Making prototypes
+
+- Typ: GOV.UK Service Manual; Methodenleitlinie für öffentliche Services
+- URL: https://www.gov.uk/service-manual/design/making-prototypes
+
+## S32: Card, Conversation, Confirmation
+
+- Typ: Ron Jeffries; Primärquelle der Story-Methode
+- URL: https://ronjeffries.com/xprog/articles/expcardconversationconfirmation
+
+## S33: Story Mapping
+
+- Typ: Jeff Patton; Primärquelle der Methode, keine kausale Vergleichsstudie
+- URL: https://jpattonassociates.com/wp-content/uploads/2015/03/story_mapping.pdf

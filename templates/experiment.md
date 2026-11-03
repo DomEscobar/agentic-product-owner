@@ -5,6 +5,8 @@
 - Zielgruppe:
 - Evidenz / Unsicherheit:
 - Methode:
+- Falls Prototyp: Testfrage / konkrete Aufgabe / dargestellte Zustände:
+- Falls Prototyp: Version und Regelreferenzen / simulierte Eigenschaften / unzulässige Schlussfolgerungen:
 - Metrik mit Definition und Baseline:
 - Messfenster:
 - Erfolgskriterium:

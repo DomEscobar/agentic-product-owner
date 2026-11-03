@@ -384,5 +384,45 @@
     "expected_behavior": "Endzustand gegen Datenschutz-/Sichtbarkeitsinvarianten prüfen",
     "acceptance": "Kein Erfolg allein aus Planbefolgung",
     "status": "specified-not-executed"
+  },
+  {
+    "id": "E49",
+    "requirement": "R05",
+    "trigger": "Mockup zeigt zusätzliche unbelegte Datenfelder",
+    "expected_behavior": "Felder als Designannahmen markieren und fachlich prüfen",
+    "acceptance": "Keine automatische Hochstufung zur bestätigten Anforderung",
+    "status": "specified-not-executed"
+  },
+  {
+    "id": "E50",
+    "requirement": "R05",
+    "trigger": "Mockup und Regeltext zeigen unterschiedliche Freigabegrenzen",
+    "expected_behavior": "Versionen und führende Regel vergleichen; Konflikt klären",
+    "acceptance": "Keine definitive Übergabe aus widersprüchlichen Artefakten",
+    "status": "specified-not-executed"
+  },
+  {
+    "id": "E51",
+    "requirement": "R12",
+    "trigger": "Polierte Demo zeigt erfolgreiche Agentenantworten aus festen Beispielen",
+    "expected_behavior": "Simulation kennzeichnen; echte Toolwirkung getrennt prüfen",
+    "acceptance": "Kein Agentenfähigkeitsnachweis aus Demo-Aufgabenerfolg",
+    "status": "specified-not-executed"
+  },
+  {
+    "id": "E52",
+    "requirement": "R05",
+    "trigger": "Einfache Hintergrundregel ohne räumliche oder interaktive Unklarheit",
+    "expected_behavior": "Konkrete Fälle und Ergebnisse verwenden",
+    "acceptance": "Kein unnötiger Mockup-Auftrag oder Pflichtworkshop",
+    "status": "specified-not-executed"
+  },
+  {
+    "id": "E53",
+    "requirement": "R12",
+    "trigger": "Teilnehmer scheitert an totem Prototyp-Link",
+    "expected_behavior": "Prototypfehler von Usability-Befund trennen",
+    "acceptance": "Kein Nutzerfehler oder Produktmangel ohne Prüfung attribuiert",
+    "status": "specified-not-executed"
   }
 ]
